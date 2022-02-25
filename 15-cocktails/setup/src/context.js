@@ -34,6 +34,7 @@ const AppProvider = ({ children }) => {
                 });
                 setCoctails(newCoctails);
             } else {
+                b;
                 setCoctails([]);
             }
             setLoading(false);
